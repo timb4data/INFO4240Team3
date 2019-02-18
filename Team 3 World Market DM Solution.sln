@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Module 1 DM Documentation", "Module 1 DM Documentation", "{D20759DB-117B-484A-87D3-B0575DD2443C}"
+	ProjectSection(SolutionItems) = preProject
+		Module 1 DM Documentation\World Food Market DM Excel Documentation.xls.xlsx = Module 1 DM Documentation\World Food Market DM Excel Documentation.xls.xlsx
+		Module 1 DM Documentation\World Food Market DM Star Schema.vsdx = Module 1 DM Documentation\World Food Market DM Star Schema.vsdx
+		Module 1 DM Documentation\World Food Market LOE.doc.docx = Module 1 DM Documentation\World Food Market LOE.doc.docx
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OLTP", "OLTP", "{6D2A8924-90DA-4560-AF0F-414B4005A91E}"
+	ProjectSection(SolutionItems) = preProject
+		OLTP\WorldFoodMarketDM.bak = OLTP\WorldFoodMarketDM.bak
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DM Build", "DM Build", "{3C739919-A8CD-40E1-ADB5-A50691331873}"
+	ProjectSection(SolutionItems) = preProject
+		World Food Market DM Build\WorldMarket DM.sql = World Food Market DM Build\WorldMarket DM.sql
+	EndProjectSection
+EndProject
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "World Food Market DM ETL", "World Food Market DM ETL\World Food Market DM ETL\World Food Market DM ETL.dtproj", "{E97DB0B8-2223-4894-BDA9-B6FFAF156828}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E97DB0B8-2223-4894-BDA9-B6FFAF156828}.Development|Default.ActiveCfg = Development
+		{E97DB0B8-2223-4894-BDA9-B6FFAF156828}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E1F4F157-1DFB-4991-9C6E-1E14E6482D00}
+	EndGlobalSection
+EndGlobal
